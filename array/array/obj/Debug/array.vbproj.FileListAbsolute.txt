@@ -1,0 +1,11 @@
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\bin\Debug\array.exe.config
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\bin\Debug\array.exe
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\bin\Debug\array.pdb
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\bin\Debug\array.xml
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\obj\Debug\array.vbproj.AssemblyReference.cache
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\obj\Debug\array.Resources.resources
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\obj\Debug\array.vbproj.GenerateResource.cache
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\obj\Debug\array.vbproj.CoreCompileInputs.cache
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\obj\Debug\array.exe
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\obj\Debug\array.xml
+C:\Users\clyde\OneDrive\Desktop\6 th pro\array\array\obj\Debug\array.pdb
