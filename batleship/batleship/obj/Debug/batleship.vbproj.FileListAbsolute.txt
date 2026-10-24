@@ -1,0 +1,11 @@
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\bin\Debug\batleship.exe.config
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\bin\Debug\batleship.exe
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\bin\Debug\batleship.pdb
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\bin\Debug\batleship.xml
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\obj\Debug\batleship.vbproj.AssemblyReference.cache
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\obj\Debug\batleship.Resources.resources
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\obj\Debug\batleship.vbproj.GenerateResource.cache
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\obj\Debug\batleship.vbproj.CoreCompileInputs.cache
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\obj\Debug\batleship.exe
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\obj\Debug\batleship.xml
+C:\Users\clyde\OneDrive\Desktop\6 th pro\batleship\batleship\obj\Debug\batleship.pdb
