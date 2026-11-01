@@ -1,0 +1,58 @@
+extends CharacterBody2D
+
+func _ready() -> void:
+	
+	animation_tree.active = true
+	
+enum State{
+	idol,
+	run,
+	runup }
+
+
+@export_category("stats")
+@export var speed: int = 400
+
+var state: State = State.idol
+var move_direction: Vector2 = Vector2(0,0)
+
+@onready var animation_tree: AnimationTree = $AnimationTree
+@onready var animation_playback: AnimationNodeStateMachinePlayback = $AnimationTree["parameters/playback"]
+func _physics_process(_delta: float) -> void:
+	move_direction.x = int(Input.is_action_pressed("move right")) - int(Input.is_action_pressed("move left"))
+	move_direction.y = int(Input.is_action_pressed("move down")) - int(Input.is_action_pressed("move up"))
+	var motion: Vector2 = move_direction.normalized() * speed
+	velocity = (motion)
+	move_and_slide()
+	
+	if state == State.idol or State.run or State.runup:
+		if move_direction.x < - 0.01:
+			$Sprite2D.flip_h = true
+		elif move_direction.x <0.01:
+			$Sprite2D.flip_h = false
+		if move_direction.y * -1 < - 0.01:
+			$Sprite2D.flip_v = true
+			#add a offset to the height
+		elif move_direction.y * -1 < 0.01:
+			$Sprite2D.flip_v = false
+	if motion != Vector2.ZERO and  move_direction.x * move_direction.x > move_direction.y * move_direction.y and state!= State.run:
+		state = State.run
+		update_animation()
+	elif motion == Vector2.ZERO and state!= State.idol  :
+		state = State.idol
+		update_animation()
+	elif motion != Vector2.ZERO and  move_direction.y * move_direction.y > move_direction.x *move_direction.x and state!= State.runup:
+		state = State.runup
+		update_animation()
+func update_animation()->void:
+	
+	print("travel path: ", animation_playback.get_travel_path())
+	match state:
+		State.idol:
+			animation_playback.travel("idol")
+		State.run:
+			animation_playback.travel("run")
+		State.runup:
+			animation_playback.travel("runup")
+
+	
