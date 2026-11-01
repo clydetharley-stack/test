@@ -1,1 +1,2 @@
-the rpg game currently is very early on and I am hoping to make it into a turned based rpg as it is a genre I enjoy a lot I would also like to update the assets it uses and I made it on godot
+the rpg game currently is very early on and I am hoping to make it into a turned based rpg as it is a genre I enjoy a lot I would also like to update the assets it uses and I made it on godot. I have currently been testing it in godot so it should work in godot . wasd are for movement and space will be for attack when I add it soon it works on windows
+unfortunately I have not began work on the combat system however that will be my priority 
