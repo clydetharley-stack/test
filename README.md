@@ -2,3 +2,4 @@ the rpg game currently is very early on and I am hoping to make it into a turned
 to play the game you should just be able to run the exe file in the release
 unfortunately I have not began work on the combat system however that will be my priority I am part way through adding a feature that creates an attack prompt when you are in range of the enemies attack I just need to adjust a couple line for the attacks visibility 
 when I have finished my rpg I would like to have stealth as a key part of the gameplay 
+<img width="1162" height="650" alt="image" src="https://github.com/user-attachments/assets/aa0401cb-d1c7-4b16-9672-d0f70e55c208" />
